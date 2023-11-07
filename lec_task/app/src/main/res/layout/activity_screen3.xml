@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".screen3">
+
+    <TextView
+        android:id="@+id/hobby_header"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hobby_header"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/hobbies"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hobby_header"
+        android:layout_marginStart="50dp"
+        android:text="@string/hobbies"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"/>
+
+    <Button
+        android:id="@+id/third2second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/hobbies"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="352sp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/toPrev" />
+
+</RelativeLayout>

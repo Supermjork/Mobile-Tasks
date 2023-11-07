@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">lec_task</string>
+    <string name="student_name">Mark Ehab\nFarouk</string>
+    <string name="toNext">Next\nScreen</string>
+    <string name="selfie">Selfie</string>
+    <string name="uid">20221372981</string>
+    <string name="toPrev">Prev\nScreen</string>
+    <string name="gpa">GPA: 3.8563</string>
+    <string name="hobby_header">Hobbies:</string>
+    <string name="hobbies">- Video Games\n- Music\n- Programming\n- Reading</string>
+</resources>

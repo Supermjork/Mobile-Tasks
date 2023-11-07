@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    tools:context=".screen2">
+
+    <TextView
+        android:id="@+id/name_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:text="@string/student_name"
+        android:textSize="55sp" />
+
+    <TextView
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="@string/uid"
+        android:layout_below="@id/name_text"
+        android:layout_marginTop="20sp"
+        android:textSize="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/id"
+        android:layout_marginTop="10dp"
+        android:text="@string/gpa"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="250sp"
+        android:layout_height="250sp"
+        android:layout_below="@+id/id"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:scaleY="0.75"
+        android:scaleX="0.75"
+        app:srcCompat="@drawable/selfie"
+        android:contentDescription="@string/selfie" />
+
+
+    <Button
+        android:id="@+id/second2third"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/toNext" />
+
+    <Button
+        android:id="@+id/second2first"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginStart="50dp"
+        android:scaleX="1.5"
+        android:scaleY="1.5"
+        android:text="@string/toPrev"/>
+
+</RelativeLayout>
